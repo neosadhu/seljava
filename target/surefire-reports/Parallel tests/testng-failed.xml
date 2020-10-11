@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Parallel tests]" verbose="0">
+  <test name="Test Three(failed)">
+    <classes>
+      <class name="com.seluitest.testCases.TestDataProvider">
+        <methods>
+          <include name="testSecondmethod" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.seluitest.testCases.TestDataProvider -->
+    </classes>
+  </test> <!-- Test Three(failed) -->
+</suite> <!-- Failed suite [Parallel tests] -->

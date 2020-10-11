@@ -1,0 +1,14 @@
+[
+    {
+      "testCase": "testcase for first username",
+      "username": "firstusername",
+      "password": "firstpassword",
+      "rememberMe": false
+    },
+    {
+      "testCase": "testcase for second username",
+      "username": "Secondusername",
+      "password": "secondpassword",
+      "rememberMe": false
+    }
+ ]
